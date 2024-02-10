@@ -1,0 +1,68 @@
+version: "3.9"
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./advertisements:/app
+      - static-data:/vol/web
+    restart: on-failure
+    environment:
+      - DB_HOST=db
+      - DB_NAME=${DB_NAME}
+      - DB_USER=${DB_USER}
+      - DB_PASS=${DB_PASS}
+      - SECRET_KEY=${SECRET_KEY}
+      - ALLOWED_HOSTS=${ALLOWED_HOSTS}
+      - DEBUG=${DEBUG}
+      - PAYPAL_WEBHOOK_ID=${PAYPAL_WEBHOOK_ID}
+      - CLIENT_ID=${CLIENT_ID}
+      - CLIENT_SECRET=${CLIENT_SECRET}
+      - openai=${openai}
+      - TokenTelgram=${TokenTelgram}
+    depends_on:
+      - db
+      - redis
+  
+  db:
+    image: postgres:13-alpine
+    restart: always
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=${DB_NAME}
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASS}
+  redis:
+    image: redis
+    ports:
+      - "6379:6379"
+    restart: always
+    volumes:
+      - redisdata:/data    
+  proxy:
+    build:
+      context: ./advertisements/proxy
+    restart: always
+    depends_on:
+      - app
+    ports:
+      - 80:80
+    volumes:
+      - static-data:/vol/static
+      - ./advertisements/proxy/build/static:/vol/static/static
+
+    environment:
+      NODE_ENV: production
+
+
+volumes:
+  dev-db-data:
+  postgres-data:
+  static-data:
+  redisdata: 
+
+  
+
+  

@@ -1,0 +1,183 @@
+2024-02-07 23:49:13,333 INFO supervisord started with pid 1
+2024-02-07 23:49:14,349 INFO spawned: 'celery_beat' with pid 8
+2024-02-07 23:49:14,354 INFO spawned: 'celery_worker' with pid 9
+2024-02-07 23:49:14,360 INFO spawned: 'django' with pid 11
+2024-02-07 23:49:15,364 INFO success: celery_beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:49:15,366 INFO success: celery_worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:49:15,370 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:49:21,999 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:49:23,005 INFO spawned: 'django' with pid 17
+2024-02-07 23:49:24,038 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:49:25,009 WARN exited: celery_worker (exit status 1; not expected)
+2024-02-07 23:49:25,013 INFO spawned: 'celery_worker' with pid 19
+2024-02-07 23:49:26,017 INFO success: celery_worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:49:31,479 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:49:32,485 INFO spawned: 'django' with pid 24
+2024-02-07 23:49:33,487 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:49:39,738 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:49:40,747 INFO spawned: 'django' with pid 32
+2024-02-07 23:49:41,748 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:49:46,717 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:49:47,727 INFO spawned: 'django' with pid 35
+2024-02-07 23:49:48,730 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:49:56,775 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:49:57,800 INFO spawned: 'django' with pid 38
+2024-02-07 23:49:58,804 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:50:04,394 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:50:05,400 INFO spawned: 'django' with pid 41
+2024-02-07 23:50:06,402 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:50:11,202 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:50:12,209 INFO spawned: 'django' with pid 44
+2024-02-07 23:50:13,213 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:50:17,045 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:50:18,050 INFO spawned: 'django' with pid 47
+2024-02-07 23:50:19,052 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:50:22,848 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:50:23,855 INFO spawned: 'django' with pid 50
+2024-02-07 23:50:24,857 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:50:29,960 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:50:30,965 INFO spawned: 'django' with pid 53
+2024-02-07 23:50:31,967 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:50:35,392 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:50:36,397 INFO spawned: 'django' with pid 56
+2024-02-07 23:50:37,398 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:50:40,780 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:50:41,785 INFO spawned: 'django' with pid 59
+2024-02-07 23:50:42,787 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:50:45,721 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:50:46,728 INFO spawned: 'django' with pid 62
+2024-02-07 23:50:47,730 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:50:52,498 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:50:53,502 INFO spawned: 'django' with pid 65
+2024-02-07 23:50:54,505 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:50:59,559 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:51:00,567 INFO spawned: 'django' with pid 68
+2024-02-07 23:51:01,572 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:51:04,759 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:51:05,765 INFO spawned: 'django' with pid 71
+2024-02-07 23:51:06,768 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:51:10,085 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:51:11,089 INFO spawned: 'django' with pid 74
+2024-02-07 23:51:12,093 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:51:15,213 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:51:16,218 INFO spawned: 'django' with pid 77
+2024-02-07 23:51:17,222 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:51:21,677 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:51:22,684 INFO spawned: 'django' with pid 80
+2024-02-07 23:51:23,686 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:51:28,814 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:51:29,823 INFO spawned: 'django' with pid 83
+2024-02-07 23:51:30,825 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:51:34,341 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:51:35,346 INFO spawned: 'django' with pid 86
+2024-02-07 23:51:36,348 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:51:36,350 WARN received SIGTERM indicating exit request
+2024-02-07 23:51:36,350 INFO waiting for celery_beat, celery_worker, django to die
+2024-02-07 23:51:37,352 WARN stopped: django (terminated by SIGTERM)
+2024-02-07 23:51:38,354 INFO reaped unknown pid 87 (exit status 1)
+2024-02-07 23:51:39,111 INFO stopped: celery_worker (exit status 0)
+2024-02-07 23:51:40,116 WARN stopped: celery_beat (terminated by SIGTERM)
+2024-02-07 23:56:20,070 INFO supervisord started with pid 1
+2024-02-07 23:56:21,076 INFO spawned: 'celery_beat' with pid 7
+2024-02-07 23:56:21,080 INFO spawned: 'celery_worker' with pid 8
+2024-02-07 23:56:21,084 INFO spawned: 'django' with pid 9
+2024-02-07 23:56:22,088 INFO success: celery_beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:56:22,089 INFO success: celery_worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:56:22,090 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:56:27,642 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:56:28,461 INFO spawned: 'django' with pid 16
+2024-02-07 23:56:29,650 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:56:34,230 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:56:35,234 INFO spawned: 'django' with pid 25
+2024-02-07 23:56:36,237 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:56:39,729 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:56:40,733 INFO spawned: 'django' with pid 28
+2024-02-07 23:56:41,735 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:56:44,760 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:56:45,767 INFO spawned: 'django' with pid 31
+2024-02-07 23:56:46,769 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:56:50,430 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:56:51,438 INFO spawned: 'django' with pid 34
+2024-02-07 23:56:52,440 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:56:56,128 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:56:57,133 INFO spawned: 'django' with pid 37
+2024-02-07 23:56:58,136 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:57:02,509 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:57:03,514 INFO spawned: 'django' with pid 40
+2024-02-07 23:57:04,516 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:57:07,627 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:57:08,631 INFO spawned: 'django' with pid 43
+2024-02-07 23:57:09,633 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:57:12,568 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:57:13,574 INFO spawned: 'django' with pid 46
+2024-02-07 23:57:14,575 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:57:18,483 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:57:19,488 INFO spawned: 'django' with pid 49
+2024-02-07 23:57:20,490 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:57:23,350 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:57:24,361 INFO spawned: 'django' with pid 52
+2024-02-07 23:57:25,363 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:57:28,861 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:57:29,867 INFO spawned: 'django' with pid 55
+2024-02-07 23:57:30,869 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:57:34,493 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:57:35,498 INFO spawned: 'django' with pid 58
+2024-02-07 23:57:36,500 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:57:39,754 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:57:40,759 INFO spawned: 'django' with pid 61
+2024-02-07 23:57:41,761 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:57:44,782 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:57:45,787 INFO spawned: 'django' with pid 64
+2024-02-07 23:57:46,789 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:57:50,821 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:57:51,826 INFO spawned: 'django' with pid 67
+2024-02-07 23:57:52,828 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:57:56,303 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:57:57,309 INFO spawned: 'django' with pid 70
+2024-02-07 23:57:58,312 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:58:02,488 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:58:03,496 INFO spawned: 'django' with pid 73
+2024-02-07 23:58:04,499 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:58:07,791 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:58:08,795 INFO spawned: 'django' with pid 76
+2024-02-07 23:58:09,797 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:58:13,566 WARN exited: django (exit status 1; not expected)
+2024-02-07 23:58:14,571 INFO spawned: 'django' with pid 79
+2024-02-07 23:58:15,574 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:58:19,289 WARN received SIGTERM indicating exit request
+2024-02-07 23:58:19,289 INFO waiting for celery_beat, celery_worker, django to die
+2024-02-07 23:58:19,491 WARN stopped: django (terminated by SIGTERM)
+2024-02-07 23:58:20,494 INFO reaped unknown pid 81 (exit status 1)
+2024-02-07 23:58:21,718 INFO stopped: celery_worker (exit status 0)
+2024-02-07 23:58:22,721 WARN stopped: celery_beat (terminated by SIGTERM)
+2024-02-07 23:59:38,786 INFO supervisord started with pid 1
+2024-02-07 23:59:39,795 INFO spawned: 'celery_beat' with pid 7
+2024-02-07 23:59:39,798 INFO spawned: 'celery_worker' with pid 8
+2024-02-07 23:59:39,804 INFO spawned: 'django' with pid 10
+2024-02-07 23:59:40,808 INFO success: celery_beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:59:40,810 INFO success: celery_worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:59:40,812 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-07 23:59:48,277 WARN exited: celery_worker (exit status 1; not expected)
+2024-02-07 23:59:49,280 INFO spawned: 'celery_worker' with pid 18
+2024-02-07 23:59:50,284 INFO success: celery_worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-08 00:39:22,257 INFO supervisord started with pid 1
+2024-02-08 00:39:23,274 INFO spawned: 'celery_beat' with pid 7
+2024-02-08 00:39:23,276 INFO spawned: 'celery_worker' with pid 8
+2024-02-08 00:39:23,281 INFO spawned: 'django' with pid 9
+2024-02-08 00:39:24,284 INFO success: celery_beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-08 00:39:24,291 INFO success: celery_worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-08 00:39:24,313 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-08 00:59:40,468 INFO supervisord started with pid 1
+2024-02-08 00:59:41,474 INFO spawned: 'celery_beat' with pid 7
+2024-02-08 00:59:41,477 INFO spawned: 'celery_worker' with pid 8
+2024-02-08 00:59:41,480 INFO spawned: 'django' with pid 10
+2024-02-08 00:59:42,482 INFO success: celery_beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-08 00:59:42,484 INFO success: celery_worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-08 00:59:42,485 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-08 01:08:02,870 INFO supervisord started with pid 1
+2024-02-08 01:08:03,878 INFO spawned: 'celery_beat' with pid 7
+2024-02-08 01:08:03,880 INFO spawned: 'celery_worker' with pid 8
+2024-02-08 01:08:03,884 INFO spawned: 'django' with pid 10
+2024-02-08 01:08:04,886 INFO success: celery_beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-08 01:08:04,888 INFO success: celery_worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-02-08 01:08:04,889 INFO success: django entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
